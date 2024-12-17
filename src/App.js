@@ -1,10 +1,16 @@
-import logo from './logo.svg';
-import './App.css';
 
+import './App.css';
+import Classcomponent from './components/Classcomponent'
+import FunctionComponent from './components/FunctionComponent';
 function App() {
   return (
     <div className="App">
-    <h1>react router</h1>
+    <h1>About React Component </h1>
+
+    <h5>Acutally I want to explain the state concept & hooks working.</h5>
+   <Classcomponent/>
+   <br />
+   <FunctionComponent/>
     </div>
   );
 }
