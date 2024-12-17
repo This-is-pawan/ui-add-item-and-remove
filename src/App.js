@@ -1,16 +1,14 @@
 
-import './App.css';
-import Classcomponent from './components/Classcomponent'
-import FunctionComponent from './components/FunctionComponent';
+// import './App.css';
+import UseEffect from './components/UseEffect';
+import UseState from './components/UseState';
+
 function App() {
   return (
-    <div className="App">
+    <div className="container">
     <h1>About React Component </h1>
-
-    <h5>Acutally I want to explain the state concept & hooks working.</h5>
-   <Classcomponent/>
-   <br />
-   <FunctionComponent/>
+   <UseEffect/>
+   <UseState/>
     </div>
   );
 }
