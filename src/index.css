@@ -7,7 +7,9 @@ body {
   -moz-osx-font-smoothing: grayscale;
   background: rgb(177, 177, 187);
 }
-
+h1,h2,h3{
+  text-align: center;
+}
 .cont{
   width: 100px;
   text-transform: capitalize;
