@@ -1,15 +1,16 @@
 // import './App.css';
-import ClassComponentdidMount from "./components/ClassComponentdidMount";
-import UseEffect from "./components/UseEffect";
-import UseState from "./components/UseState";
+
+import Loginpage from "./components/Loginpage";
+
+
+
 
 function App() {
   return (
     <div className="container">
       <h1>About React Component </h1>
-      
-      <ClassComponentdidMount />
-   <UseState/>
+ 
+      <Loginpage/>
     </div>
   );
 }
