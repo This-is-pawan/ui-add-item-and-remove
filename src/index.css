@@ -1,47 +1,46 @@
 body {
   margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", "Roboto", "Oxygen",
+    "Ubuntu", "Cantarell", "Fira Sans", "Droid Sans", "Helvetica Neue",
     sans-serif;
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
-  background: rgb(177, 177, 187);
+  /* background: rgb(177, 177, 187); */
 }
-h1,h2,h3{
+h1,
+h2,
+h3 {
   text-align: center;
 }
-.cont{
+.cont {
   width: 100px;
   text-transform: capitalize;
-  font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
   font-size: 2rem;
-  margin:1rem auto;
+  margin: 1rem auto;
   text-align: center;
   display: flex;
   flex-direction: column;
-
 }
 .sidebarAlign {
   margin-top: 1rem;
- width: 200px;
+  width: 200px;
   background: rgb(6, 6, 50);
-   color: white;
-   padding: 1rem;
+  color: white;
+  padding: 1rem;
   display: flex;
   flex-direction: column;
   justify-content: center;
   justify-content: space-around;
 }
-.modal{
-  display: none;
+.main {
+  box-shadow: 2px 2px 5px rgb(216, 164, 164);
+  max-width: 600px;
+  margin: auto;
+  padding: 1rem;
+  border-radius: 5px;
 }
-.show-model{
-  display: block;
-}
-
 .align{
-  display: none;
-}
-.show-align{
-  display: none;
+  display: grid;
+  place-items: center;
 }

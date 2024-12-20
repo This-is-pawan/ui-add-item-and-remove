@@ -1,6 +1,7 @@
 // import './App.css';
 
-import Loginpage from "./components/Loginpage";
+import Userform from "./components/Userform";
+
 
 
 
@@ -10,7 +11,7 @@ function App() {
     <div className="container">
       <h1>About React Component </h1>
  
-      <Loginpage/>
+<Userform/>
     </div>
   );
 }
